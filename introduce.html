@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黃浚瑋｜個人介紹</title>
+    <style>
+        :root {
+            --main-color: #1a73e8;
+            --bg-color: #f8f9fa;
+            --text-color: #090909;
+            --section-bg: #ffffff;
+            --accent-color: #0b5ed7;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Noto Sans TC", "微軟正黑體", sans-serif;
+            margin: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 40px;
+            background-color: var(--section-bg);
+            border-radius: 16px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: var(--main-color);
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .profile-img {
+            display: block;
+            margin: 30px auto;
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid var(--main-color);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        section {
+            margin-top: 40px;
+        }
+
+        h2 {
+            color: var(--accent-color);
+            border-left: 5px solid var(--accent-color);
+            padding-left: 12px;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #888;
+            margin-top: 60px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px;
+                padding: 25px;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .profile-img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>自我介紹</h1>
+            <p>前端開發初學者｜文組轉職｜自學者精神</p>
+        </header>
+
+        <img src="./New Project (1).jpg" alt="個人照片" class="profile-img">
+
+        <section>
+            <h2>關於我</h2>
+            <p>
+                我是來自文組背景的自學者，對網頁開發充滿熱情。雖然不善言詞，但我相信實際行動才能證明價值。
+                <br>
+                在學期間除了主修工商管理外，課餘時間持續鑽研前端相關技術，努力從 0 到 1 建立自己的技術基礎。
+            </p>
+        </section>
+
+        <section>
+            <h2>學歷背景</h2>
+            <ul>
+                <li>長庚大學 工商管理學系｜2019 - 2022</li>
+                <li>自學課程：HTML5 / CSS3 /</li>
+                <li>完成多個線上實作練習與小專案</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>主要技能</h2>
+            <ul>
+                <li>HTML、CSS、JavaScript 前端語言</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>工作態度與自我期許</h2>
+            <p>
+                我具備責任感與穩定度，入職後絕不遲到早退。我也會持續學習新技術，為團隊貢獻更多價值。希望能找到一個成長型團隊一起學習、一起前進。
+            </p>
+        </section>
+
+        <footer>
+            © 2025 黃浚瑋 — 本頁為個人作品展示用途
+        </footer>
+    </div>
+</body>
+
+</html>

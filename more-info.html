@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>瞭解更多 | 黃浚瑋</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background: linear-gradient(135deg, #f8f9ff, #e4ecff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .form-container {
+            background-color: #fff;
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 25px;
+            font-size: 26px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        input:focus,
+        textarea:focus,
+        select:focus {
+            outline: none;
+            border-color: #7a88ff;
+            box-shadow: 0 0 0 3px rgba(122, 136, 255, 0.2);
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #7a88ff;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #5f6ee3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form-container">
+        <h2>瞭解更多</h2>
+        <form action="#" method="post">
+            <label for="name">姓名</label>
+            <input type="text" id="name" name="name" placeholder="請輸入您的姓名" required />
+
+            <label for="email">電子信箱</label>
+            <input type="email" id="email" name="email" placeholder="請輸入您的 Email" required />
+
+            <label for="topic">想了解的主題</label>
+            <select id="topic" name="topic">
+                <option value="轉職問題">轉職問題</option>
+                <option value="技能學習">技能學習</option>
+                <option value="履歷與作品">履歷與作品</option>
+                <option value="其他">其他</option>
+            </select>
+
+            <label for="message">留言內容</label>
+            <textarea id="message" name="message" rows="5" placeholder="請寫下您想了解的內容…" required></textarea>
+
+            <button type="submit">送出表單</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
