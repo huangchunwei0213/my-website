@@ -60,7 +60,7 @@ li {
     background-color: antiquewhite;
     color: white;
     height: 85vh;
-    background-image: url("../pic.jpg");
+    background-image: url("./pic.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
